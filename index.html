@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Apodaca</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<button class="tablink" onclick="openPage('AboutMe', this, '#A1B9BD')" id="defaultOpen">About Me</button>
+<button class="tablink" onclick="openPage('Projects', this, '#A1B9BD')">Projects</button>
+<button class="tablink" onclick="openPage('SayHello', this, '#A1B9BD')">Say Hello!</button>
+
+<div id="AboutMe" class="tabcontent">
+    <h3 id = "name">Bryan Apodaca</h3>
+    <p id = "intro">Hello! My name is Bryan Apodaca and I am a full-time CS major at Loyola Marymount University in Los Angeles, CA.
+        And a full time QA tester for an inpatient rehabilitation documentation software.</p>
+    <img id = "me" src = "newMe.png" alt = "Whoops you can't see me...">
+</div>
+<div id = "Projects" class = "tabcontent">
+    <h3>Projects</h3>
+    <ul>
+        <li>Portfolio</li>
+        <li>Selenium Testing</li>
+        <li>Etc...</li>
+    </ul>
+</div>
+<div id="SayHello" class="tabcontent">
+    <h3 id = "contact">Contact Me!</h3>
+    <ul>
+        <li>My Github</li>
+        <li>Send Me An Email!</li>
+        <li>Text Me!</li>
+    </ul>
+</div>
+
+<body>
+<script src="app.js"></script>
+</body>
+</html>
