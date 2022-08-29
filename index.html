@@ -13,25 +13,28 @@
 
 <div id="AboutMe" class="tabcontent">
     <h3 id = "name">Bryan Apodaca</h3>
-    <p id = "intro">Hello! My name is Bryan Apodaca and I am a full-time CS major at Loyola Marymount University in Los Angeles, CA.
-        And a full time QA tester for an inpatient rehabilitation documentation software.</p>
-    <img id = "me" src = "newMe.png" alt = "Whoops you can't see me...">
+    <div class = "flexbox-container">
+        <div class="flexbox-item flexbox-item-1"><img id = "me" src = "newMe.png" alt = "Whoops you can't see me..."></div>
+        <div class="flexbox-item flexbox-item-2"></div>
+        <div class="flexbox-item flexbox-item-3"></div>
+    </div>
 </div>
 <div id = "Projects" class = "tabcontent">
     <h3>Projects</h3>
     <ul>
         <li>Portfolio</li>
         <li>Selenium Testing</li>
-        <li>Etc...</li>
+        <li>Link to my <a href = "https://github.com/bryauk123">GitHub</a></li>
     </ul>
 </div>
 <div id="SayHello" class="tabcontent">
-    <h3 id = "contact">Contact Me!</h3>
+    <h3 id = "contactEmail">Contact Me via Email!</h3>
     <form action="https://formsubmit.co/apodaca.ba@gmail.com" method="POST">
         <input type="email" name="email" placeholder = "Email Address" required>
         <input type="text" name="message" placeholder = "Write your message!" required>
         <button type="submit">Send</button>
    </form>
+   <h3 id = "textMe">Contact Me via Text!</h3>
 </div>
 
 <body>
