@@ -42,6 +42,12 @@
 .flexbox-item-3{
   min-height: 300px;
 }
+#fbox1_projects{
+  color: rgb(195, 75, 75);
+}
+#skill_list{
+  color: black;
+}
 body, html {
     height: 100%;
     margin: 0;

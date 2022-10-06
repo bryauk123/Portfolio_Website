@@ -10,6 +10,7 @@
 <button class="tablink" onclick="openPage('AboutMe', this, '#A1B9BD')" id="defaultOpen">About Me</button>
 <button class="tablink" onclick="openPage('Projects', this, '#A1B9BD')">Projects</button>
 <button class="tablink" onclick="openPage('SayHello', this, '#A1B9BD')">Say Hello!</button>
+<button class="tablink" onclick="openPage('Experience', this, '#A1B9BD')">Experience</button>
 
 <div id="AboutMe" class="tabcontent">
     <h3 id = "name">Bryan Apodaca</h3>
@@ -19,7 +20,13 @@
     <div class = "flexbox-container">
         <div class="flexbox-item flexbox-item-1"><img id = "me" src = "newMe.png" alt = "Whoops you can't see me..."></div>
         <div class="flexbox-item flexbox-item-2">
-            <h1 id = "fbox1_projects">Projects</h1>
+            <h1 id = "fbox1_projects">Skills</h1>
+            <ul id = "skill_list">
+                <li>C++ - Proficient</li>
+                <li>Java - Proficient</li>
+                <li>Selenium Testing with Java - Familiar</li>
+                <li>Python - Familiar</li>
+            </ul>
         </div>
         <div class="flexbox-item flexbox-item-3">
             <h1 id = "fbox2_selenium">Selenium</h1>
@@ -42,6 +49,15 @@
         <button type="submit">Send</button>
    </form>
    <h3 id = "textMe">Contact Me via Text!</h3>
+</div>
+<div id="Experience" class = "tabcontent">
+    <h3 id = "IC">Intelligent Charting, LLC</h3>
+    <ul>
+        <li>In charge of quality assurance for inpatient rehabilitation software by using the
+             framework Selenium and helping develop alongside with the development team.</li>
+        <li>Aided in reducing $2000-$3000 per patient of our client’s 
+            expenditures by reducing non-compliant documentation and increasing efficiency.</li>
+    </ul>
 </div>
 
 <body>
