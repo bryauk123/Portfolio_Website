@@ -1,8 +1,7 @@
 #name{
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     font-size: 48px;
     font-family: sans-serif;
-    text-shadow: 2px 2px #ff0000;
     position: static;
     
 }
@@ -13,8 +12,7 @@
   color: antiquewhite;
 }
 #intro{
-  border-style: inset;
-  border-color: red;
+  color: rgb(148, 145, 145);
   font-size: 21px;
 }
 #me{
@@ -46,14 +44,14 @@
 .flexbox-item-3{
   min-height: 300px;
 }
-#fbox1_projects{
-  color: rgb(195, 75, 75);
+#languages{
+  color: black;
 }
 #osTitle{
-  color: rgb(195, 75, 75);
+  color: black;
 }
 #dbTitle{
-  color: rgb(195, 75, 75);
+  color: black;
 }
 #skill_list{
   color: black;
@@ -62,6 +60,9 @@
   color: black;
 }
 #dbList{
+  color: black;
+}
+#ic-list{
   color: black;
 }
 body, html {
@@ -96,11 +97,11 @@ body, html {
     height: 100%;
   }
 
-#AboutMe {background-color: #2DB3C7;
+#AboutMe {background-color: #ececec;
 background-size: cover;}
-#Projects {background-color: #2DB3C7;}
-#SayHello {background-color: #2DB3C7;}
-#Experience {background-color: #2DB3C7;}
+#Projects {background-color: #d3d7d8;}
+#SayHello {background-color: #d3d7d8;}
+#Experience {background-color: #d3d7d8;}
 
 #listOfProjects{color: antiquewhite;}
 #projectsTitle{color: rgb(195, 75, 75);}
