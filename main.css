@@ -24,25 +24,32 @@
 }
 .flexbox-container{
   display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+
 }
 
 .flexbox-item{
-  width: 300px;
-  margin: 0px;
-  
-  /*border: 3px solid #333;
-  background-color: #dfdfdf;*/
+  width: 100px;
+  height: 100px;
+  /*border: 1px solid #ccc;*/
+  margin-right: 1px;
 }
 .flexbox-item-1{
-  min-height: 100px;
-  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  margin-left: 0;
+  
 }
 .flexbox-item-2{
   min-height: 200px;
-  justify-content: space-between;
 }
 .flexbox-item-3{
   min-height: 300px;
+}
+.flexbox-item-4{
+  min-height: 300px;
+  margin-right: 0;
 }
 #languages{
   color: black;
@@ -63,6 +70,9 @@
   color: black;
 }
 #ic-list{
+  color: rgb(148, 145, 145);
+}
+#IC{
   color: black;
 }
 body, html {
@@ -73,7 +83,7 @@ body, html {
   
   /* Style tab links */
   .tablink {
-    background-color: rgb(225, 102, 102);
+    background-color: rgb(156, 156, 156);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     float: left;
@@ -103,5 +113,5 @@ background-size: cover;}
 #SayHello {background-color: #d3d7d8;}
 #Experience {background-color: #d3d7d8;}
 
-#listOfProjects{color: antiquewhite;}
-#projectsTitle{color: rgb(195, 75, 75);}
+#listOfProjects{color: rgb(148, 145, 145);}
+#projectsTitle{color: black;}
