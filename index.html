@@ -9,14 +9,11 @@
 </head>
 <button class="tablink" onclick="openPage('AboutMe', this, '#A1B9BD')" id="defaultOpen">About Me</button>
 <button class="tablink" onclick="openPage('Projects', this, '#A1B9BD')">Projects</button>
-<button class="tablink" onclick="openPage('SayHello', this, '#A1B9BD')">Say Hello!</button>
+<button class="tablink" onclick="openPage('Education', this, '#A1B9BD')">Education</button>
 <button class="tablink" onclick="openPage('Experience', this, '#A1B9BD')">Experience</button>
 
 <div id="AboutMe" class="tabcontent">
     <h3 id = "name">Bryan Apodaca</h3>
-    <p id = "intro">Hello! I'm a full time Computer Science major at Loyola Marymount University and full time
-        Selenium QA Tester for a documentation software catered to inpatient rehab facilities!
-    </p>
     <div class = "flexbox-container">
         <div class="flexbox-item flexbox-item-1"><img id = "me" src = "newMe.png" alt = "Whoops you can't see me..."></div>
         <div class="flexbox-item flexbox-item-2">
@@ -80,19 +77,22 @@
 
     </section>
 </div>
-<div id="SayHello" class="tabcontent">
-    <h3 id = "contactEmail">Contact Me via Email!</h3>
-    <form action="https://formsubmit.co/apodaca.ba@gmail.com" method="POST">
-        <input type="email" name="email" placeholder = "Email Address" required>
-        <input type="text" name="message" placeholder = "Write your message!" required>
-        <button type="submit">Send</button>
-   </form>
-   <h3 id = "textMe">Contact Me via Text!</h3>
+<div id="Education" class="tabcontent">
+    <div class = "flex-container2">
+        <div class = "logo">
+    <img id = "lmu" src = "lmu_logo_new.png" alt = "Whoops you can't see me...">
+        </div>
+    <div class = "schoolInfo">
+    <h2 id = "university">Loyola Marymount University</h2>
+   <h3 id = "degree">BSc Computer Science - Fall 2023</h3>
+    </div>
+    </div>
 </div>
 <div id="Experience" class = "tabcontent">
     <section>
         <article>
     <div id = "IC">
+    <h2>QA Tester</h2>
     <h2>Intelligent Charting, LLC - Los Angeles, CA</h2>
     <h3>January 2022 - Present</h3>
     </div>

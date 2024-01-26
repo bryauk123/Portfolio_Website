@@ -5,51 +5,90 @@
     position: static;
     
 }
-#contactEmail{
-    color:antiquewhite;
+#university{
+    color:black;
 }
-#textMe{
-  color: antiquewhite;
+#degree{
+  color: black;
 }
 #intro{
   color: rgb(148, 145, 145);
   font-size: 21px;
 }
 #me{
-  position: static;
-  float: left;
-  padding: 0px;
   height: auto;
   width: 100%;
+  display: block;
+  position: relative;
+  top: -100px; 
+  left: 10px;
+}
+.flex-container2{
+  display: flex;
+  justify-content: start-left;
+  padding: 0 20px;
+}
+.logo{
+  
+}
+.schoolInfo{
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  bottom: -100px; 
+  left: 10px;
 }
 .flexbox-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: start-left;
   padding: 0 20px;
+  align-items: center;
 
 }
 
 .flexbox-item{
   width: 100px;
   height: 100px;
-  /*border: 1px solid #ccc;*/
-  margin-right: 1px;
+  margin-right: 100px;
+  padding: 50px;
+  
+  
 }
 .flexbox-item-1{
   width: 300px;
   height: 300px;
-  margin-left: 0;
+  margin-left: 0px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #ccc;
   
 }
 .flexbox-item-2{
   min-height: 200px;
+  min-width: 200px;
+  text-align: start-left;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  
 }
 .flexbox-item-3{
-  min-height: 300px;
+  min-height: 200px;
+  min-width: 200px;
+  text-align: start-left;
+  border: 5px solid #ccc;
+  border-radius: 10px;
 }
 .flexbox-item-4{
-  min-height: 300px;
-  margin-right: 0;
+  min-height: 200px;
+  min-width: 200px;
+  text-align: start-left;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  
+  
 }
 #languages{
   color: black;
@@ -71,6 +110,9 @@
 }
 #ic-list{
   color: rgb(148, 145, 145);
+  border: 5px solid #ccc;
+  border-radius: 10px;
+
 }
 #IC{
   color: black;
@@ -81,7 +123,7 @@ body, html {
     font-family: Arial;
   }
   
-  /* Style tab links */
+  
   .tablink {
     background-color: rgb(156, 156, 156);
     color: white;
@@ -99,7 +141,7 @@ body, html {
     background-color: #777;
   }
   
-  /* Style the tab content (and add height:100% for full page content) */
+
   .tabcontent {
     color: white;
     display: none;
@@ -109,9 +151,13 @@ body, html {
 
 #AboutMe {background-color: #ececec;
 background-size: cover;}
-#Projects {background-color: #d3d7d8;}
-#SayHello {background-color: #d3d7d8;}
-#Experience {background-color: #d3d7d8;}
+#Projects {background-color: #ececec;}
+#Education {background-color: #ececec;}
+#Experience {background-color: #ececec;}
 
-#listOfProjects{color: rgb(148, 145, 145);}
+#listOfProjects{
+  color: rgb(148, 145, 145);
+  border: 5px solid #ccc;
+  border-radius: 10px;
+}
 #projectsTitle{color: black;}
